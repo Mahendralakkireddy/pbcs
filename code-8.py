@@ -651,25 +651,14 @@ else:
 
     st.sidebar.subheader("Sample Questions")
     sample_questions = [
-        "Total amount by organization and version",
-        "Top 10 Total Amount by Organization and Version (Only COUNCIL1 and COUNCIL2)",
-        "Show the top 5 programs with the highest net increase in budget between FY16-17 and FY17-18",
-        "Give me the data for which Position, Award, and Fund contribute most to the year-on-year budget variance",
-        "What is the total funding breakdown by account type across all organizations in FY17-18",
-        "Top 5 projects with the largest one-time funding increase in FY17-18",
-        "What are the allocated FTE and allocated amounts for each project in FY16-17 and FY17-18 under the Working or Final version",
-        "How much budget was allocated to each fund for each council in FY16-17 and FY17-18 under the Forecast scenario",
-        "What is the year-over-year change in total budgeted amount (Ongoing + One-Time) for each fund between FY16-17 and FY17-18 for the FORECASTING scenario and versions COUNCIL 1 and COUNCIL 2",
-        "What is the year-over-year change in total funding (Ongoing + One-Time) between FY16-17 and FY17-18 by Org, Fund, Program, Project, and Account",
-        "What is the contribution of each project to the total budget under a fund (e.g., FD_1999) or program",
-        "What is the position-level expenditure breakdown by fund or project",
-        "List the departments with the highest budget cuts in FY17-18 compared to FY16-17",
-        "Explain Project-wise FTE and Budget Allocation",
-        "explain Fund Performance Analysis",
-        "Explain the line item summary fact",
-        "Explain logic behind FY 16-17 metric",
-        "Explain the logic behind Net Incr/Decr metric",
-        "Explain the logic behind Allocated amount metric"
+        "What kind of data can i get using this assistant?",
+        "What are the key subject areas covered in the solution?",
+        "Top 10 Total Amount by Organization and Version?",
+        "Show the top 5 programs with the highest net increase in budget between FY16-17 and FY17-18?",
+        "What are the allocated FTE and allocated amounts for project PJ_1000001 in FY16-17 and FY17-18 under the Working or Final version?",
+        "Give me the data for which Position, Award, and Fund contribute most to the year-on-year budget variance?",
+        "Explain the logic behind Allocated FTE metric?",
+        "Explain the logic behind Net Incr/Decr metric?"
     ]
 
     # Display chat history without chat bubbles for assistant, skipping the welcome message
