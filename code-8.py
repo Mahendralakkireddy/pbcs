@@ -334,7 +334,7 @@ if not st.session_state.authenticated:
             conn = snowflake.connector.connect(
                 user=st.session_state.username,
                 password=st.session_state.password,
-                account="HHDEKPV-ABB89903",
+                account="ACEXHOM-OBB17210",
                 host=HOST,
                 port=443,
                 warehouse="COMPUTE_WH",
@@ -884,3 +884,4 @@ else:
             st.session_state.current_results = assistant_response.get("results")
             st.session_state.current_sql = assistant_response.get("sql")
             st.session_state.current_summary = assistant_response.get("summary")
+
