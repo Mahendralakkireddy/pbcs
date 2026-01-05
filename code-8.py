@@ -11,7 +11,7 @@ import plotly.express as px
 import time
 
 # Snowflake/Cortex Configuration
-HOST = "ACEXHOM-OBB17210.snowflakecomputing.com"
+HOST = "DWFIOCJ-BFB11160.snowflakecomputing.com"
 DATABASE = "AI"
 SCHEMA = "DWH_MART"
 API_ENDPOINT = "/api/v2/cortex/agent:run"
@@ -334,7 +334,7 @@ if not st.session_state.authenticated:
             conn = snowflake.connector.connect(
                 user=st.session_state.username,
                 password=st.session_state.password,
-                account="ACEXHOM-OBB17210",
+                account="DWFIOCJ-BFB11160",
                 host=HOST,
                 port=443,
                 warehouse="COMPUTE_WH",
@@ -884,6 +884,7 @@ else:
             st.session_state.current_results = assistant_response.get("results")
             st.session_state.current_sql = assistant_response.get("sql")
             st.session_state.current_summary = assistant_response.get("summary")
+
 
 
 
